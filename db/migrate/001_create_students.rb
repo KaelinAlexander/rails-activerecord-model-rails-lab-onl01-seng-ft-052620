@@ -1,7 +1,7 @@
 class CreateStudents < ActionRecord::Migration
 
   def change
-    create_table students 
+    create_table students
 
   end
 
