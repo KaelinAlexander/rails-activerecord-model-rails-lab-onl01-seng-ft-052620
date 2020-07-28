@@ -1,4 +1,4 @@
-class CreateStudents < ActionRecord::Migration
+class CreateStudents < ActiveRecord::Migration
 
   def change
     create_table :students do |t|
@@ -8,5 +8,5 @@ class CreateStudents < ActionRecord::Migration
       t.timestamps null: false
     end
   end
-
+  
 end
