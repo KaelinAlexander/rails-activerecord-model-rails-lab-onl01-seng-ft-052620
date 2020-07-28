@@ -5,7 +5,7 @@ class CreateStudents < ActionRecord::Migration
       t.string :first_name
       t.string :last_name
 
-      t.timestamps :null false
+      t.timestamps null: false
     end
   end
 
